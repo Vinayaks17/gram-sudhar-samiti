@@ -5,13 +5,13 @@ const teamMembers = [
     name: "Sarthak Tyagi",
     title: "Chief Executive Officer",
     desc: "A visionary leader with 35 years of grassroots development experience in rural Madhya Pradesh.",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop"
+    img: "/assets/sarthak-tyagi.png"
   },
   {
     name: "Aditi Sharma",
     title: "Program Director",
     desc: "Dedicated specialist in water conservation and sustainable community planning.",
-    img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1888&auto=format&fit=crop"
+    img: ""
   }
 ];
 
