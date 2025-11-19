@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Voices: React.FC = () => {
   const stories = [
-    { id: 1, name: "Rajni Devi", role: "Farmer, Satna District", quote: "Before GSS, we had no hope. Now we have water, land, and dignity.", img: "https://images.unsplash.com/photo-1506543730435-e2c164552184?q=80&w=1974&auto=format&fit=crop" },
-    { id: 2, name: "Sunita Bai", role: "Artisan, Rewa District", quote: "The training gave me skills, but the community gave me strength.", img: "https://images.unsplash.com/photo-1489396572299-a7313100df6e?q=80&w=2049&auto=format&fit=crop" },
+    { id: 1, name: "Rajni Devi", role: "Farmer, Satna District", quote: "Before GSS, we had no hope. Now we have water, land, and dignity.", img: "/assets/rajni-devi.jpg" },
+    { id: 2, name: "Sunita Bai", role: "Artisan, Rewa District", quote: "The training gave me skills, but the community gave me strength.", img: "/assets/sunita-bai.jpg" },
   ];
 
   return (
