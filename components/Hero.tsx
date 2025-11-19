@@ -24,12 +24,12 @@ export const Hero: React.FC = () => {
       {/* Background Image - Community under trees */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1623793489625-72b289820c77?q=80&w=2070&auto=format&fit=crop"
+          src="/assets/community-gathering.jpg"
           alt="Community Gathering Under Trees"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-95"
         />
-        {/* Gradient Overlay - Stronger for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-darkBlue/90 via-brand-darkBlue/50 to-transparent"></div>
+        {/* Gradient Overlay - Optimized for text readability with the colorful community photo */}
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-darkBlue/85 via-brand-darkBlue/60 to-brand-darkBlue/40"></div>
       </div>
 
       {/* Content */}
