@@ -1,6 +1,21 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 
+const partnerOrganizations = [
+  'Srijan',
+  'Ministry of Labour & Employment',
+  'Ministry of Panchayat & Rural Development',
+  'Centre for Health & Social Justice',
+  'Govt of MP',
+  'MP State Control Programme Society',
+  'FHI India / Godrej',
+  'Bharat Rural Livelihood Foundation',
+  'Aditya Birla Group',
+  'Samaj Pragati Sahyog',
+  'MP Tourism Board',
+  'NABARD'
+];
+
 export const Partners: React.FC = () => {
   return (
     <section className="py-24 bg-slate-50">
@@ -20,9 +35,9 @@ export const Partners: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
-            <div key={i} className="bg-white h-24 rounded shadow-sm flex items-center justify-center hover:shadow-md transition-shadow">
-              <span className="text-lg font-heading font-bold text-slate-300">LOGO</span>
+          {partnerOrganizations.map((partner, index) => (
+            <div key={index} className="bg-white h-24 rounded shadow-sm flex items-center justify-center hover:shadow-md transition-shadow px-4">
+              <span className="text-sm font-heading font-semibold text-slate-700 text-center leading-tight">{partner}</span>
             </div>
           ))}
         </div>
