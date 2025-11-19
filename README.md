@@ -1,2 +1,2 @@
-# Gram-Sudhar-samiti
+# gram-sudhar-samiti
 Website for GSS
