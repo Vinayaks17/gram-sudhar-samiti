@@ -15,21 +15,6 @@ export const Navbar: React.FC = () => {
 
   const navLinks = ['About Us', 'Service', 'Project', 'Blog'];
 
-  // Custom SVG Logo Component matching the description (Gear + GSS)
-  const GSSLogo = () => (
-    <svg viewBox="0 0 100 100" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
-      {/* Outer Gear Shape (Simplified) */}
-      <circle cx="50" cy="50" r="48" fill="#0047AB" />
-      <path d="M50 2 L54 10 L60 10 L62 2 M98 50 L90 54 L90 60 L98 62" stroke="white" strokeWidth="2" strokeLinecap="round" />
-      {/* White Ring */}
-      <circle cx="50" cy="50" r="38" stroke="white" strokeWidth="3" fill="#0047AB" />
-      {/* Inner Text */}
-      <text x="50" y="58" fontSize="24" fontWeight="bold" fill="white" textAnchor="middle" fontFamily="Outfit, sans-serif">GSS</text>
-      <text x="50" y="30" fontSize="6" fill="white" textAnchor="middle" fontFamily="Inter, sans-serif" letterSpacing="1">JUSTICE • EQUALITY</text>
-      <text x="50" y="78" fontSize="6" fill="white" textAnchor="middle" fontFamily="Inter, sans-serif" letterSpacing="1">DEVELOPMENT</text>
-    </svg>
-  );
-
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -40,7 +25,7 @@ export const Navbar: React.FC = () => {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden bg-white border-2 border-white shadow-md">
-             <GSSLogo />
+             <img src="/assets/gss-logo.jpg" alt="GSS Logo" className="w-full h-full object-cover" />
           </div>
           <div className={`font-heading font-bold tracking-tight leading-none ${isScrolled ? 'text-brand-darkBlue' : 'text-white'}`}>
             <span className="block text-lg">GRAM SUDHAR</span>
